@@ -10,8 +10,7 @@ def test_add():
 
 def test_subtract():
     calc = Calculator()
-    assert calc.subtract(10, 4) == 6000
-
+    assert calc.subtract(10, 4) == 6
 def test_multiply():
     calc = Calculator()
     assert calc.multiply(3, 4) == 12
